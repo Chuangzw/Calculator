@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="334dp"
+        android:layout_height="99dp"
+        android:text="@string/_0"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="238dp"
+        android:layout_marginBottom="127dp"
+        android:layout_marginTop="200dp"
+        android:columnCount="4"
+        android:orientation="horizontal"
+        android:rowCount="4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/AC"
+            android:layout_columnSpan="2"
+            android:layout_gravity="fill"
+            android:onClick="onClickAc"
+            android:text="@string/ac" />
+
+        <Button
+            android:id="@+id/del"
+            android:onClick="onClickDel"
+            android:text="@string/del" />
+
+        <Button
+            android:id="@+id/plus"
+            android:layout_gravity="fill"
+            android:onClick="onClickPlus"
+            android:text="@string/_plus" />
+
+        <Button
+            android:id="@+id/one"
+            android:onClick="onClick1"
+            android:text="@string/_1" />
+
+        <Button
+            android:id="@+id/two"
+            android:onClick="onClick2"
+            android:text="@string/_2" />
+
+        <Button
+            android:id="@+id/three"
+            android:onClick="onClick3"
+            android:text="@string/_3" />
+
+        <Button
+            android:id="@+id/minus"
+            android:layout_gravity="fill"
+            android:onClick="onClickMinus"
+            android:text="@string/_minus" />
+
+        <Button
+            android:id="@+id/four"
+            android:onClick="onClick4"
+            android:text="@string/_4" />
+
+        <Button
+            android:id="@+id/five"
+            android:onClick="onClick5"
+            android:text="@string/_5" />
+
+        <Button
+            android:id="@+id/six"
+            android:onClick="onClick6"
+            android:text="@string/_6" />
+
+        <Button
+            android:id="@+id/multiply"
+            android:layout_gravity="fill"
+            android:onClick="onClickMultiply"
+            android:text="@string/_multiply" />
+
+        <Button
+            android:id="@+id/seven"
+            android:onClick="onClick7"
+            android:text="@string/_7" />
+
+        <Button
+            android:id="@+id/eight"
+            android:onClick="onClick8"
+            android:text="@string/_8" />
+
+        <Button
+            android:id="@+id/nine"
+            android:onClick="onClick9"
+            android:text="@string/_9" />
+
+        <Button
+            android:id="@+id/divide"
+            android:layout_gravity="fill"
+            android:onClick="onClickDivide"
+            android:text="@string/_divide" />
+
+        <Button
+            android:id="@+id/point"
+            android:onClick="onClickPoint"
+            android:text="@string/_point" />
+
+        <Button
+            android:id="@+id/zero"
+            android:onClick="onClickZero"
+            android:text="@string/_0" />
+
+        <Button
+            android:id="@+id/equal"
+            android:layout_columnSpan="2"
+            android:layout_gravity="fill"
+            android:onClick="onClickEqual"
+            android:text="@string/_equals" />
+
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="276dp"
+        android:layout_height="82dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/_0"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toTopOf="@+id/gridLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.816"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="67dp"
+        android:layout_height="76dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/_equals"
+        android:textSize="50sp"
+        app:layout_constraintBottom_toTopOf="@+id/gridLayout"
+        app:layout_constraintEnd_toStartOf="@+id/textView2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+
+</android.support.constraint.ConstraintLayout>
