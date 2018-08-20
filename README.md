@@ -1,5 +1,5 @@
 # Calculator
-a calculator program with lots of bug
+This is a calculator program with lots of bug
 
 
 [Github地址](https://github.com/Chuangzw/Calculator)
